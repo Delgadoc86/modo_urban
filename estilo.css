@@ -116,7 +116,7 @@ section h1 {
 /* Ajustes para la portada en pantallas pequeñas */
 @media (max-width: 800px) {
     section h1 {
-        font-size: 3em; /* Reduce el tamaño de la fuente */
+        font-size: 4em; /* Reduce el tamaño de la fuente */
         top: 20%; /* Ajusta la posición vertical */
         left: 50%;
         transform: translate(-50%, -50%);
@@ -200,7 +200,7 @@ textarea {
     border: 1px solid #ddd;
     border-radius: 0.5em;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    margin: 1em;
+    margin: 0.5em;
     width: 250px;
     position: relative;
 }
