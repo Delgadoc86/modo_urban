@@ -1,6 +1,6 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Nunito", system-ui;
     margin: 0;
     padding: 0;
     background-color: #F0F3FF;
@@ -11,6 +11,7 @@ body {
 
 /* Estilos del navbar */
 .navbar {
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,6 +23,7 @@ body {
 }
 
 .nav-button {
+    text-decoration: none;
     color: white;
     text-decoration: none;
     margin: 0 1em;
@@ -30,7 +32,7 @@ body {
 }
 
 .nav-button:hover {
-    text-decoration: underline;
+    text-decoration:underline;
 }
 
 .search-form {
@@ -87,7 +89,7 @@ body {
     }
 
     .search-input, .search-button {
-        font-size: 0.9em;
+        font-size: 1em;
         width: 100%; /* Ocupa todo el ancho disponible */
         box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
     }
@@ -104,18 +106,21 @@ section img {
 }
 
 section h1 {
+    font-family: "Bebas Neue", sans-serif;
     position: absolute;
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 10em;
+    font-size: 12em;
+    letter-spacing: .1em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
 /* Ajustes para la portada en pantallas pequeñas */
 @media (max-width: 800px) {
     section h1 {
+        font-family: "Bebas Neue", sans-serif;
         font-size: 4em; /* Reduce el tamaño de la fuente */
         top: 20%; /* Ajusta la posición vertical */
         left: 50%;
@@ -200,7 +205,7 @@ textarea {
     border: 1px solid #ddd;
     border-radius: 0.5em;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    margin: 0.5em;
+    margin: 0.2em;
     width: 250px;
     position: relative;
 }
@@ -257,8 +262,10 @@ textarea {
 .offers-heading {
     text-align: center;
     font-size: 3em;
-    color: #333;
+    color: #be0404;
     margin-bottom: 1em;
+    border-color: white;
+    
 }
 
 .offers-grid {
