@@ -19,25 +19,33 @@ body {
     padding: 1em;
     color: white;
     flex-wrap: wrap;
-    height: 2.5em; /* controla la altura del navbar*/
+    height: 2.5em; /* controla la altura del navbar */
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Elimina los puntos de las listas */
+}
+
+li {
+    margin: 0 1em;
 }
 
 .nav-button {
     text-decoration: none;
     color: white;
-    text-decoration: none;
-    margin: 0 1em;
     font-size: 1em;
     white-space: nowrap;
 }
 
 .nav-button:hover {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 .search-form {
     display: flex;
-    
     margin-left: auto;
     gap: 0; /* Asegura que no haya espacio extra entre los elementos */
 }
@@ -66,7 +74,6 @@ body {
     justify-content: center;
 }
 
-
 /* Ajustes para pantallas pequeñas */
 @media (max-width: 800px) {
     .navbar {
@@ -75,10 +82,15 @@ body {
         height: auto; /* Permite que el navbar ajuste su altura */
     }
 
-    .nav-button {
+    ul {
+        flex-direction: column;
+        width: 100%; /* Ocupa todo el ancho disponible */
+        align-items: center;
+    }
+
+    li {
         margin: 0.5em 0;
-        display: block;
-        width: 100%;
+        width: 100%; /* Cada elemento de la lista ocupa todo el ancho */
         text-align: center;
     }
 
