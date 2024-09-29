@@ -1,0 +1,172 @@
+/* Estilos del formulario de contacto */
+.contacto_form {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.c_titulo {
+    text-align: center;
+    color: #293462; /* Mismo color del navbar para coherencia visual */
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.c_form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.b_enviar {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #293462; /* Color coherente con el navbar */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center; /* Centra el botón dentro del formulario */
+}
+
+.b_enviar:hover {
+    background-color: #1e2a5e; /* Oscurece el color al hacer hover */
+}
+
+/* Estilos de los productos */
+.products-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 0.5em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 0.2em;
+    width: 250px;
+    position: relative;
+}
+
+.product-image {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    border-radius: .5em;
+}
+
+.product-info {
+    padding: 1em;
+}
+
+.product-name {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.product-price {
+    color: #1E2A5E;
+    font-size: 1.1em;
+    margin: 0.5em 0;
+}
+
+.add-to-cart {
+    background-color: #55679C;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    cursor: pointer;
+    font-size: 0.9em;
+    width: 100%;
+}
+
+/* Botón de favorito */
+.favorite-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0.5em;
+}
+
+/* Estilos de las ofertas */
+.offers-section {
+    padding: 2em;
+    background-color: #e9ecef;
+}
+
+.offers-heading {
+    text-align: center;
+    font-size: 3em;
+    color: #be0404;
+    margin-bottom: 1em;
+}
+
+.offers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.offer-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: relative;
+    text-align: center;
+}
+
+.offer-image {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0.5em;
+}
+
+.offer-info {
+    padding: 1em;
+}
+
+.offer-name {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.offer-price {
+    color: #1E2A5E;
+    font-size: 1.1em;
+    margin: 0.5em 0;
+}

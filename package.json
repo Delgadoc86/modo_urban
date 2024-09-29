@@ -1,0 +1,14 @@
+{
+  "name": "proyecto_coder",
+  "version": "1.0.0",
+  "description": "creado el dia 20/08/2024 por Cristian Delgado\r se agradece el apoyo con una estrellita\r para clonar deben instalar git en su pc local\r # modo_urban\r Repositorio e-commerce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.79.4"
+  }
+}
